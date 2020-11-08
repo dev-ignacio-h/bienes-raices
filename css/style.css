@@ -1,9 +1,13 @@
+html {
+    font-size: 62.5%; /** Reset para rems - 62.5% = 10px de 16px **/
+}
 body {
     font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
 }
 /** Globales **/
 .contenedor {
-    max-width: 1200px;
+    max-width: 120rem; /** = 1200px **/
     margin: 0 auto;
 }
 
@@ -13,21 +17,21 @@ body {
     background-position: center;
     background-size: cover;
     height: 100vh;
-    min-height: 600px;
+    min-height: 60rem;
 }
 .barra {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 20px;
+    padding-top: 3rem;
 }
 
 /** Navegación **/
 .navegacion a{
     color: white;
     text-decoration: none;
-    font-size: 18px;
-    margin-right: 20px;
+    font-size: 1.8rem; /** = 18px **/
+    margin-right: 2rem;
 }
 .navegacion a:hover {
     color: #71b100;
