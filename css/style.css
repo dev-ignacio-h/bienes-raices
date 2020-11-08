@@ -24,6 +24,12 @@ h4 {
     font-size: 2.6rem;
 }
 
+/** Utilidades **/
+.seccion {
+    margin-top: 2rem;
+    margin-top: 2rem;
+}
+
 /** Header **/
 .site-header.inicio {
     background-image: url(../img/header.jpg);
@@ -63,4 +69,13 @@ h4 {
 }
 .navegacion a:last-of-type{
     margin-right: 0;
+}
+
+/** Íconos nosotros **/
+.iconos-nosotros {
+    display: flex;
+    justify-content: space-between;
+}
+.icono {
+    flex-basis: calc(33.3% - 1rem);
 }
