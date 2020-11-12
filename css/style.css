@@ -69,7 +69,7 @@ h4 {
 /** Header **/
 .site-header.inicio {
   background-image: url(../img/header.jpg);
-  background-position: center;
+  background-position: center center;
   background-size: cover;
   height: 100vh;
   min-height: 60rem;
@@ -84,7 +84,7 @@ h4 {
   color: #fff;
   padding-bottom: 2rem;
   max-width: 60rem;
-  line-height: 1.8;
+  line-height: 2;
 }
 .barra {
   display: flex;
@@ -104,7 +104,7 @@ h4 {
   color: #71b100;
 }
 .navegacion a:last-of-type {
-  margin-right: 0;
+  margin: 0;
 }
 
 /** Íconos nosotros **/
@@ -146,4 +146,23 @@ h4 {
 .ver-todas {
     display: flex;
     justify-content: flex-end;
+    /* margin: 1rem; */
+    margin: 2rem 0;
+}
+
+/** Contacto Home **/
+.imagen-contacto {
+    background-image: url(../img/encuentra.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 40rem;
+    display: flex;
+    align-items: center;
+}
+.contenido-contacto {
+    flex: 1;
+    color: #fff;
+}
+.contenido-contacto p {
+    font-size: 1.8rem;
 }
