@@ -226,3 +226,28 @@ h4 {
 .texto-entrada span {
   color: #e08709;
 }
+/** Testimoniales **/
+.testimonial {
+  background-color: #71b100;
+  font-size: 2.4rem;
+  padding: 2rem;
+  color: #eee;
+  border-radius: 2rem;
+}
+.testimonial p {
+  text-align: right;
+}
+.testimonial blockquote::before {
+  content: '';
+  background-image: url(../img/comilla.svg);
+  width: 4rem;
+  height: 4rem;
+  /* display: block; */
+  position: absolute;
+  left: -2rem;
+}
+.testimonial blockquote {
+  position: relative;
+  padding-left: 5rem;
+  /* font-weight: 300; */
+}
