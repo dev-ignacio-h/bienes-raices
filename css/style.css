@@ -46,7 +46,7 @@ h4 {
   text-align: center;
 }
 .d-block {
-    display: block !important;
+  display: block !important;
 }
 
 /** Botones **/
@@ -159,8 +159,8 @@ h4 {
   margin-right: 2rem;
 }
 .ver-todas {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 /** Contacto Home **/
@@ -173,9 +173,41 @@ h4 {
   align-items: center;
 }
 .contenido-contacto {
-    flex: 1;
-    color: #fff;
+  flex: 1;
+  color: #fff;
 }
 .contenido-contacto p {
-    font-size: 1.8rem;
+  font-size: 1.8rem;
+}
+
+/** Sección inferior **/
+.seccion-inferior {
+  display: flex;
+  justify-content: space-between;
+}
+.seccion-inferior .blog {
+  flex-basis: 60%;
+}
+.seccion-inferior .testimoniales {
+  flex-basis: 37%;              /* salvaguarda para navegadores que no reconocen calc() */
+  flex-basis: calc(40% - 2rem);
+}
+.entrada-blog {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.entrada-blog:last-of-type {
+  margin-bottom: 0;
+}
+.entrada-blog .imagen {
+  flex-basis: 40%;
+}
+.entrada-blog .texto-entrada {
+  flex-basis: 57%;            /* salvaguarda para navegadores que no reconocen calc() */
+  flex-basis: calc(60% - 3rem);
+}
+.texto-entrada h4 {
+  margin: 0;
+  line-height: 1.5;
 }
