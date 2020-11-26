@@ -207,7 +207,22 @@ h4 {
   flex-basis: 57%;            /* salvaguarda para navegadores que no reconocen calc() */
   flex-basis: calc(60% - 3rem);
 }
+.texto-entrada a {
+  color: #222;
+  text-decoration: none;
+}
 .texto-entrada h4 {
   margin: 0;
   line-height: 1.5;
+}
+.texto-entrada h4::after {
+  content: '';
+  display: block;
+  width: 15rem;
+  height: .5rem;
+  background-color: #71b100;
+  margin-top: 1rem;
+}
+.texto-entrada span {
+  color: #e08709;
 }
