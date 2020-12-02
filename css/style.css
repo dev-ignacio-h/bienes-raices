@@ -128,13 +128,17 @@ h4 {
 .contenedor-anuncios {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .anuncio {
-  flex-basis: calc(33.3% - 1rem);
-  border-style: solid;
+  flex: 0 0 calc(33.3% - 1rem);
+  /* flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: calc(33.3% - 1rem); */
   border-color: #b5b5b5;
-  background-color: #f5f5f5;
   border-width: 1px;
+  background-color: #f5f5f5;
+  border-style: solid;
   margin-bottom: 2rem;
 }
 .contenido-anuncio {
